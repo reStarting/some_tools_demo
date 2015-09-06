@@ -1,0 +1,12 @@
+{
+  "name": "pty_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pty.js": "^0.2.13"
+  }
+}

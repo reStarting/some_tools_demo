@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+</head>
+<body>
+	<div id="demo">
+		<input type="text" v-model="title" />
+		<h1>{{title | uppercase}}</h1>
+		<ul>
+			<li
+				v-repeat="todos"
+				v-on="click: done = !done"
+				class="{{done ? 'done' : ''}}"
+			>
+				{{content}}
+			</li>
+		</ul>
+	</div>
+	<div id="demo2" v-my-directive="LightSlateGray : msg"></div>
+	<div id="demo3" v-text="message | reverse"></div>
+	<input id="demo4" type="text" v-model="message | checkCount" />
+	<div id="demo5"><mycmp my-msg="hehehe"></mycmp></div>
+	<div id="demo6"><parent></parent></div>
+	<script src="bundle.js" type="text/javascript"></script>
+</body>
+</html>

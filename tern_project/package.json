@@ -1,0 +1,12 @@
+{
+  "name": "tern_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {},
+  "author": "Mi",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^0.12.12"
+  }
+}

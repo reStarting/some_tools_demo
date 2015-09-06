@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>React-Search</title>
+</head>
+<body>
+	<div id="app"></div>
+	<script type="text/javascript" src="react-with-addons.js"></script>
+	<script type="text/javascript" src="build/search.js"></script>
+	<script type="text/javascript">
+		var o = {
+			__age:0,
+			get name()
+			{
+				return "你好, 杰逼!"
+			}
+		}
+		Object.defineProperty(o, 'age',{
+			get: function(){
+				return this.__age
+			},
+			set: function(age){
+				this.__age = age;
+			}
+		});
+		o.age = 18
+		console.log(o)
+	</script>
+</body>
+</html>

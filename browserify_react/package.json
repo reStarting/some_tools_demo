@@ -1,0 +1,30 @@
+{
+  "name": "browserify_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify --debug app.js > bundle.js",
+    "build-dist": "NODE_ENV=production browserify app.js | uglifyjs -m > bundle.min.js",
+    "watch": "watchify --debug app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "uglify-js": "^2.4.24",
+    "watchify": "^3.3.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "harmony": true
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "node_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "mi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.2",
+    "jade": "^1.11.0"
+  }
+}

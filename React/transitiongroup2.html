@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		.carousel-enter{
+			opacity:0.01;
+			transition:opacity 0.5s ease-in;
+		}
+		.carousel-enter.carousel-enter-active{
+			opacity:1;
+		}
+		.carousel-leave{
+			opacity:1;
+			transition:opacity 0.5s ease-out;
+		}
+		.carousel-leave.carousel-leave-active{
+			opacity:0.01;
+		}
+		.slider{
+			position: relative;
+		}
+		.pic{
+			position:absolute;
+			left:0;
+			top:0;
+		}
+	</style>
+</head>
+<body>
+	<div id="app"></div>
+	<script type="text/javascript" src="react-with-addons.js"></script>
+	<script type="text/javascript" src="build/transition2.js"></script>
+</body>
+</html>

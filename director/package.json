@@ -1,0 +1,22 @@
+{
+  "name": "director_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin":{
+	"webpack": "./node_modules/.bin/webpack"  
+  },
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "author": "mi",
+  "license": "ISC",
+  "dependencies": {
+    "director": "^1.2.8"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.11.0"
+  }
+}
