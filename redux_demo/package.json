@@ -1,0 +1,19 @@
+{
+  "name": "redux_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "author": "Mi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-loader": "^6.2.0",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "redux": "^3.0.5"
+  }
+}
